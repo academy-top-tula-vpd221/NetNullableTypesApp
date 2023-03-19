@@ -4,7 +4,8 @@ using System.Net.Sockets;
 int? n;
 n = null;
 
-int m = n ?? 100;
+int m = 300;
+n = m;
 
 //string s = "Hello";
 //Console.WriteLine(s);
